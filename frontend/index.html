@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hand Gesture Verification</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Hand Gesture Verification</h1>
+
+  <div class="container">
+    <!-- Camera -->
+    <div class="camera-box">
+      <video id="video" autoplay playsinline></video>
+      <div id="overlayText" class="overlay"></div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <p id="challengeText"></p>
+      <button id="captureBtn">📸 Capture & Verify</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
