@@ -1,0 +1,2 @@
+run py train.py to generate gesture_model.pth
+  
