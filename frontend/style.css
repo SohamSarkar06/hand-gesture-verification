@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #111827;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.camera-container {
+  position: relative;
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* 🔔 Gesture overlay */
+#gestureOverlay {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.65);
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#gestureOverlay strong {
+  margin-left: 6px;
+  font-size: 16px;
+  color: #22c55e;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+}
